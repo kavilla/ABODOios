@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AE9EF0319BFE0B9E79D77DA /* Pods_ABODOios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB4A960583C7A5F08A400F8 /* Pods_ABODOios.framework */; };
+		F6766D901CBCED8F00D7E0ED /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F6766D8F1CBCED8F00D7E0ED /* .gitignore */; };
+		F68EE9611CBCB858009D6432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68EE9601CBCB858009D6432 /* AppDelegate.swift */; };
+		F68EE9661CBCB858009D6432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68EE9641CBCB858009D6432 /* Main.storyboard */; };
+		F68EE9681CBCB858009D6432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68EE9671CBCB858009D6432 /* Assets.xcassets */; };
+		F68EE96B1CBCB858009D6432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68EE9691CBCB858009D6432 /* LaunchScreen.storyboard */; };
+		F68EE9761CBCB858009D6432 /* ABODOiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68EE9751CBCB858009D6432 /* ABODOiosTests.swift */; };
+		F68EE9811CBCB858009D6432 /* ABODOiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68EE9801CBCB858009D6432 /* ABODOiosUITests.swift */; };
+		F68EE9921CBCC173009D6432 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68EE9911CBCC173009D6432 /* mainViewController.swift */; };
+		F68EE9941CBCCD1F009D6432 /* mainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68EE9931CBCCD1F009D6432 /* mainTableViewCell.swift */; };
+		F68EE9971CBCCECB009D6432 /* apartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68EE9961CBCCECB009D6432 /* apartment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F68EE9721CBCB858009D6432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F68EE9551CBCB858009D6432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F68EE95C1CBCB858009D6432;
+			remoteInfo = ABODOios;
+		};
+		F68EE97D1CBCB858009D6432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F68EE9551CBCB858009D6432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F68EE95C1CBCB858009D6432;
+			remoteInfo = ABODOios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		868534FC2CDD92F3FA35E080 /* Pods-ABODOios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABODOios.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABODOios/Pods-ABODOios.release.xcconfig"; sourceTree = "<group>"; };
+		BFB4A960583C7A5F08A400F8 /* Pods_ABODOios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABODOios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8271346296CBA4F996EABC9 /* Pods-ABODOios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABODOios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABODOios/Pods-ABODOios.debug.xcconfig"; sourceTree = "<group>"; };
+		F6766D8F1CBCED8F00D7E0ED /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F68EE95D1CBCB858009D6432 /* ABODOios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABODOios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68EE9601CBCB858009D6432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F68EE9651CBCB858009D6432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F68EE9671CBCB858009D6432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F68EE96A1CBCB858009D6432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F68EE96C1CBCB858009D6432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68EE9711CBCB858009D6432 /* ABODOiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABODOiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68EE9751CBCB858009D6432 /* ABODOiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABODOiosTests.swift; sourceTree = "<group>"; };
+		F68EE9771CBCB858009D6432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68EE97C1CBCB858009D6432 /* ABODOiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABODOiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68EE9801CBCB858009D6432 /* ABODOiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABODOiosUITests.swift; sourceTree = "<group>"; };
+		F68EE9821CBCB858009D6432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68EE9911CBCC173009D6432 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		F68EE9931CBCCD1F009D6432 /* mainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTableViewCell.swift; sourceTree = "<group>"; };
+		F68EE9961CBCCECB009D6432 /* apartment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apartment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F68EE95A1CBCB858009D6432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE9EF0319BFE0B9E79D77DA /* Pods_ABODOios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68EE96E1CBCB858009D6432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68EE9791CBCB858009D6432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96503161B5CAC1CD2107ED38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8271346296CBA4F996EABC9 /* Pods-ABODOios.debug.xcconfig */,
+				868534FC2CDD92F3FA35E080 /* Pods-ABODOios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B790408BBAB4CB63DF5E2CFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4A960583C7A5F08A400F8 /* Pods_ABODOios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F68EE9541CBCB858009D6432 = {
+			isa = PBXGroup;
+			children = (
+				F68EE95F1CBCB858009D6432 /* ABODOios */,
+				F68EE9741CBCB858009D6432 /* ABODOiosTests */,
+				F68EE97F1CBCB858009D6432 /* ABODOiosUITests */,
+				F68EE95E1CBCB858009D6432 /* Products */,
+				96503161B5CAC1CD2107ED38 /* Pods */,
+				B790408BBAB4CB63DF5E2CFB /* Frameworks */,
+				F6766D8F1CBCED8F00D7E0ED /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		F68EE95E1CBCB858009D6432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F68EE95D1CBCB858009D6432 /* ABODOios.app */,
+				F68EE9711CBCB858009D6432 /* ABODOiosTests.xctest */,
+				F68EE97C1CBCB858009D6432 /* ABODOiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F68EE95F1CBCB858009D6432 /* ABODOios */ = {
+			isa = PBXGroup;
+			children = (
+				F68EE9641CBCB858009D6432 /* Main.storyboard */,
+				F68EE9691CBCB858009D6432 /* LaunchScreen.storyboard */,
+				F68EE98F1CBCC122009D6432 /* View Controllers */,
+				F68EE9901CBCC138009D6432 /* Controllers */,
+				F68EE9951CBCCE88009D6432 /* Models */,
+				F68EE9671CBCB858009D6432 /* Assets.xcassets */,
+				F68EE9601CBCB858009D6432 /* AppDelegate.swift */,
+				F68EE96C1CBCB858009D6432 /* Info.plist */,
+			);
+			path = ABODOios;
+			sourceTree = "<group>";
+		};
+		F68EE9741CBCB858009D6432 /* ABODOiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				F68EE9751CBCB858009D6432 /* ABODOiosTests.swift */,
+				F68EE9771CBCB858009D6432 /* Info.plist */,
+			);
+			path = ABODOiosTests;
+			sourceTree = "<group>";
+		};
+		F68EE97F1CBCB858009D6432 /* ABODOiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F68EE9801CBCB858009D6432 /* ABODOiosUITests.swift */,
+				F68EE9821CBCB858009D6432 /* Info.plist */,
+			);
+			path = ABODOiosUITests;
+			sourceTree = "<group>";
+		};
+		F68EE98F1CBCC122009D6432 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F68EE9911CBCC173009D6432 /* mainViewController.swift */,
+			);
+			name = "View Controllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F68EE9901CBCC138009D6432 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F68EE9931CBCCD1F009D6432 /* mainTableViewCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F68EE9951CBCCE88009D6432 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F68EE9961CBCCECB009D6432 /* apartment.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F68EE95C1CBCB858009D6432 /* ABODOios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68EE9851CBCB858009D6432 /* Build configuration list for PBXNativeTarget "ABODOios" */;
+			buildPhases = (
+				5555A81F10C53530E527FB89 /* Check Pods Manifest.lock */,
+				F68EE9591CBCB858009D6432 /* Sources */,
+				F68EE95A1CBCB858009D6432 /* Frameworks */,
+				F68EE95B1CBCB858009D6432 /* Resources */,
+				DA084693EF4F1FE8BC73065E /* Embed Pods Frameworks */,
+				9E95C3B2350478C457356150 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABODOios;
+			productName = ABODOios;
+			productReference = F68EE95D1CBCB858009D6432 /* ABODOios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F68EE9701CBCB858009D6432 /* ABODOiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68EE9881CBCB858009D6432 /* Build configuration list for PBXNativeTarget "ABODOiosTests" */;
+			buildPhases = (
+				F68EE96D1CBCB858009D6432 /* Sources */,
+				F68EE96E1CBCB858009D6432 /* Frameworks */,
+				F68EE96F1CBCB858009D6432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F68EE9731CBCB858009D6432 /* PBXTargetDependency */,
+			);
+			name = ABODOiosTests;
+			productName = ABODOiosTests;
+			productReference = F68EE9711CBCB858009D6432 /* ABODOiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F68EE97B1CBCB858009D6432 /* ABODOiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68EE98B1CBCB858009D6432 /* Build configuration list for PBXNativeTarget "ABODOiosUITests" */;
+			buildPhases = (
+				F68EE9781CBCB858009D6432 /* Sources */,
+				F68EE9791CBCB858009D6432 /* Frameworks */,
+				F68EE97A1CBCB858009D6432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F68EE97E1CBCB858009D6432 /* PBXTargetDependency */,
+			);
+			name = ABODOiosUITests;
+			productName = ABODOiosUITests;
+			productReference = F68EE97C1CBCB858009D6432 /* ABODOiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F68EE9551CBCB858009D6432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kawikaavilla;
+				TargetAttributes = {
+					F68EE95C1CBCB858009D6432 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F68EE9701CBCB858009D6432 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F68EE95C1CBCB858009D6432;
+					};
+					F68EE97B1CBCB858009D6432 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F68EE95C1CBCB858009D6432;
+					};
+				};
+			};
+			buildConfigurationList = F68EE9581CBCB858009D6432 /* Build configuration list for PBXProject "ABODOios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F68EE9541CBCB858009D6432;
+			productRefGroup = F68EE95E1CBCB858009D6432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F68EE95C1CBCB858009D6432 /* ABODOios */,
+				F68EE9701CBCB858009D6432 /* ABODOiosTests */,
+				F68EE97B1CBCB858009D6432 /* ABODOiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F68EE95B1CBCB858009D6432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6766D901CBCED8F00D7E0ED /* .gitignore in Resources */,
+				F68EE96B1CBCB858009D6432 /* LaunchScreen.storyboard in Resources */,
+				F68EE9681CBCB858009D6432 /* Assets.xcassets in Resources */,
+				F68EE9661CBCB858009D6432 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68EE96F1CBCB858009D6432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68EE97A1CBCB858009D6432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5555A81F10C53530E527FB89 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E95C3B2350478C457356150 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ABODOios/Pods-ABODOios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA084693EF4F1FE8BC73065E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ABODOios/Pods-ABODOios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F68EE9591CBCB858009D6432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68EE9941CBCCD1F009D6432 /* mainTableViewCell.swift in Sources */,
+				F68EE9611CBCB858009D6432 /* AppDelegate.swift in Sources */,
+				F68EE9971CBCCECB009D6432 /* apartment.swift in Sources */,
+				F68EE9921CBCC173009D6432 /* mainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68EE96D1CBCB858009D6432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68EE9761CBCB858009D6432 /* ABODOiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68EE9781CBCB858009D6432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68EE9811CBCB858009D6432 /* ABODOiosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F68EE9731CBCB858009D6432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F68EE95C1CBCB858009D6432 /* ABODOios */;
+			targetProxy = F68EE9721CBCB858009D6432 /* PBXContainerItemProxy */;
+		};
+		F68EE97E1CBCB858009D6432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F68EE95C1CBCB858009D6432 /* ABODOios */;
+			targetProxy = F68EE97D1CBCB858009D6432 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F68EE9641CBCB858009D6432 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F68EE9651CBCB858009D6432 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F68EE9691CBCB858009D6432 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F68EE96A1CBCB858009D6432 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F68EE9831CBCB858009D6432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F68EE9841CBCB858009D6432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F68EE9861CBCB858009D6432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8271346296CBA4F996EABC9 /* Pods-ABODOios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ABODOios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kawikaavilla.ABODOios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F68EE9871CBCB858009D6432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868534FC2CDD92F3FA35E080 /* Pods-ABODOios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ABODOios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kawikaavilla.ABODOios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F68EE9891CBCB858009D6432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ABODOiosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kawikaavilla.ABODOiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABODOios.app/ABODOios";
+			};
+			name = Debug;
+		};
+		F68EE98A1CBCB858009D6432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ABODOiosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kawikaavilla.ABODOiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABODOios.app/ABODOios";
+			};
+			name = Release;
+		};
+		F68EE98C1CBCB858009D6432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ABODOiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kawikaavilla.ABODOiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ABODOios;
+			};
+			name = Debug;
+		};
+		F68EE98D1CBCB858009D6432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ABODOiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kawikaavilla.ABODOiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ABODOios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F68EE9581CBCB858009D6432 /* Build configuration list for PBXProject "ABODOios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68EE9831CBCB858009D6432 /* Debug */,
+				F68EE9841CBCB858009D6432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68EE9851CBCB858009D6432 /* Build configuration list for PBXNativeTarget "ABODOios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68EE9861CBCB858009D6432 /* Debug */,
+				F68EE9871CBCB858009D6432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68EE9881CBCB858009D6432 /* Build configuration list for PBXNativeTarget "ABODOiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68EE9891CBCB858009D6432 /* Debug */,
+				F68EE98A1CBCB858009D6432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68EE98B1CBCB858009D6432 /* Build configuration list for PBXNativeTarget "ABODOiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68EE98C1CBCB858009D6432 /* Debug */,
+				F68EE98D1CBCB858009D6432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F68EE9551CBCB858009D6432 /* Project object */;
+}
