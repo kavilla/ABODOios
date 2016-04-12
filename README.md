@@ -9,4 +9,4 @@ Coding test for ABODO. I saw the email after leaving my office where I leave my 
 2. Loads images
 3. Displays rental information - bed range, price range, property name
 4. Scrolls smoothly
-5. Fits correctly on multiple sized screens
+5. Fits correctly on multiple sized screens - however while playing around with your app I noticed that you prevent the user from using the app in landscape mode so I locked that as well.
